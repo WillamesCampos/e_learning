@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "e_learning"
+version = "0.1.0"
+description = "API de uma solução de e_learning."
+authors = ["WillamesCampos <willwjccampos@gmail.com>"]
+readme = "README.md"
+packages = [{include = "e_learning"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.2"
+djangorestframework = "^3.14.0"
+pillow = "^9.5.0"
+python-decouple = "^3.8"
+django-filter = "^23.2"
+tblib = "^1.7.0"
+drf-yasg = "^1.21.5"
+celery = "^5.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+factory-boy = "^3.2.1"
+coverage = "^7.2.7"
+django-rest-swagger = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

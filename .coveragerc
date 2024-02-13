@@ -1,0 +1,19 @@
+[run]
+omit =
+    */migrations/*
+    */urls.py
+    */e_learning/*
+    manage.py
+    */tests/factories/*
+    */*/__init__.py
+    */mixins/*
+    */pagination.py
+    */admin.py
+    */apps.py
+
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    if self.debug:

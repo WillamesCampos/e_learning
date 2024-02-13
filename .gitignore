@@ -1,0 +1,18 @@
+# python
+*/__pycache__/
+*/*/__pycache__/
+*/*/migrations/__pycache__/
+*/*/*/__pycache__/
+*/*/*/*/__pycache__/
+
+#poetry
+poetry.lock
+
+#sqlite
+db.sqlite3
+
+#postman collection
+postman
+
+.env
+.vscode
